@@ -48,13 +48,13 @@ public class App {
 		Politician wuPolitician = wuKingdomFactory.createPolitician(shuKingdom);
 		System.out.println(wuPolitician.getName()+" - "+wuPolitician.getNationality());
 	}
+	
 	KingdomFactory getWuKingdomFactory() {
 		return new WuKingdomFactory();
 	}
 	KingdomFactory getShuKingdomFactory() {
 		return new ShuKingdomFactory();
 	}
-	
 	WeiKingdomFactory getWeiKingdomFactory() {
 		return new WeiKingdomFactory();
 	}
