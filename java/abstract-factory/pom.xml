@@ -2,12 +2,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.jackframe</groupId>
-  <artifactId>java-design-patterns</artifactId>
+  <groupId>com.jackframe.design-patterns</groupId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>java-design-patterns</name>
+  <name>abstract-factory</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -22,4 +21,5 @@
   		<version>4.11</version>
   	</dependency>
   </dependencies>
+  <artifactId>abstract-factory</artifactId>
 </project>

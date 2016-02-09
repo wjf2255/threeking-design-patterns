@@ -21,4 +21,12 @@ public class Politician implements AgriculturalManagement {
 		farmer.agricultureOutput();
 	}
 
+	public Farmer getFarmer() {
+		return farmer;
+	}
+
+	public void setFarmer(Farmer farmer) {
+		this.farmer = farmer;
+	}
+
 }
