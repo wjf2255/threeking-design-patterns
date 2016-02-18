@@ -4,7 +4,7 @@ import java.util.concurrent.ExecutionException;
 
 /**
  * 
- * 异常任务执行结果
+ * 异步任务执行状态与结果
  *
  */
 public interface AsyncResult<T> {

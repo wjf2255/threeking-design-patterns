@@ -41,16 +41,13 @@ public class App {
 		log("Result 3: " + result3);
 		log("Result 4: " + asyncResult4.getValue());
 	}
-
+	
 	/**
-	 * Creates a callable that lazily evaluates to given value with artificial
-	 * delay.
-	 *
-	 * @param value
-	 *            value to evaluate
-	 * @param delayMillis
-	 *            artificial delay in milliseconds
-	 * @return new callable for lazy evaluation
+	 * 创建一个callable对象，模拟被执行的任务。
+	 * 
+	 * @param value 具体的结果
+	 * @param delayMillis 任务执行的时间，以毫秒为单位
+	 * @return Callable对象
 	 */
 	private static <T> Callable<T> lazyval(T value, long delayMillis) {
 
@@ -60,14 +57,12 @@ public class App {
 			return value;
 		};
 	}
-
+	
 	/**
-	 * Creates a simple callback that logs the complete status of the async
-	 * result.
-	 *
-	 * @param name
-	 *            callback name
-	 * @return new async callback
+	 * 创建一个简单的callback对象，用于记录异步任务完成结果的状态
+	 * 
+	 * @param name 任务名称
+	 * @return
 	 */
 	private static <T> AsyncCallback<T> callback(String name) {
 		return (value, ex) -> {

@@ -29,7 +29,7 @@ public class ThreadAsyncExecutor implements AsyncExecutor {
 				result.setException(e);
 			}
 		}, "executor-" + idx.incrementAndGet()).start();
-		 return result;
+		return result;
 	}
 
 	public <T> T endProcess(AsyncResult<T> asyncResult)
