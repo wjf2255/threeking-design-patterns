@@ -2,10 +2,9 @@ package com.jackframe.design_patterns.bridge;
 
 public class FlatlandCity extends City {
 	
-	private int maxFarmerNumber = 1000;		//最大农业人口数量
-
 	public FlatlandCity(Farmer farmer, int farmerNumber) {
 		super(farmer, farmerNumber);
+		maxFarmerNumber = 1000;
 		if(this.farmerNumber > maxFarmerNumber) {
 			this.farmerNumber = maxFarmerNumber;
 		}

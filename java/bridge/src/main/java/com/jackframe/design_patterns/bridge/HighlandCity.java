@@ -7,10 +7,9 @@ package com.jackframe.design_patterns.bridge;
  */
 public class HighlandCity extends City {
 
-	private int maxFarmerNumber = 100;		//最大农业人口数量
-	
 	public HighlandCity(HighlandFarmer farmer, int farmerNumber) {
 		super(farmer, farmerNumber);
+		maxFarmerNumber = 100;
 		if(this.farmerNumber > maxFarmerNumber) {
 			this.farmerNumber = maxFarmerNumber;
 		}

@@ -4,6 +4,7 @@ public abstract class City {
 
 	 protected Farmer farmer;
 	 protected int farmerNumber = 0; //农业人口数量
+	 protected int maxFarmerNumber = 100;		//最大农业人口数量
 	 
 	 public City(Farmer farmer, int farmerNumber) {
 		 this.farmer = farmer;

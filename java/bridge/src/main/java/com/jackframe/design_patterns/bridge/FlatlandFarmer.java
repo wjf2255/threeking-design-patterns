@@ -9,7 +9,9 @@ package com.jackframe.design_patterns.bridge;
  */
 public abstract class FlatlandFarmer extends Farmer {
 
-	protected double inefficient = -0.1; //平坦城市农业加成
+	public FlatlandFarmer() {
+		inefficient = -0.1;
+	}
 	/**
 	 * 平坦土地，农业产出加成
 	 */

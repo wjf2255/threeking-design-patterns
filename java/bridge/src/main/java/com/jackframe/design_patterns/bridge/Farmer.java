@@ -18,6 +18,8 @@ public abstract class Farmer {
 	protected int age = 14; //成年，能参与生产
 	
 	protected int consumePerYear = 200; //汉代农民每年消耗两百石粮食
+	
+	protected double inefficient = 0; //平坦城市农业加成
 
 	/**
 	 * 从事生产
