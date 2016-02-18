@@ -7,7 +7,7 @@ package com.jackframe.design_patterns.bridge;
  */
 public abstract class HighlandFarmer extends Farmer {
 
-	protected double inefficient = 0.3;		//农业低效
+	protected double inefficient = 0.2;		//农业低效
 	
 	public abstract void delicacyFromMountain();
 
