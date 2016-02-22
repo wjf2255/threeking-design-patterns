@@ -1,7 +1,9 @@
 package com.jackframe.design_patterns.bridge;
 
 /**
+ * 
  * 山地城市，农业效率低，但是生产矿石、山珍野味
+ * 
  * @author wjf
  *
  */
