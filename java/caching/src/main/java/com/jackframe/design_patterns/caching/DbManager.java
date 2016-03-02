@@ -40,7 +40,7 @@ public class DbManager {
 	public static UserAccount readFromDB(String userID) {
 		if(!useMongoDB) {
 			if(virtualDB.containsKey(userID)) {
-				virtualDB.get(userID);
+				return virtualDB.get(userID);
 			} else {
 				return null;
 			}
