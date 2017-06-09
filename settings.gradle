@@ -1,0 +1,11 @@
+include 'abstract-factory'
+include 'adapter'
+include 'async-method-invocation'
+include 'bridge'
+include 'builder'
+include 'business-delegate'
+include 'caching'
+include 'callback'
+include 'chain'
+include 'commander'
+

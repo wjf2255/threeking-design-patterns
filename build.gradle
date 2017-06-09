@@ -1,0 +1,18 @@
+project.description = '''
+    利用JAVA实现常见的设计模式
+'''
+apply plugin : 'java'
+apply plugin : 'idea'
+apply from: 'versions.gradle'
+
+allprojects {
+    apply plugin : 'idea'
+    apply plugin : 'java'
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    }
+}
+
+repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+}
