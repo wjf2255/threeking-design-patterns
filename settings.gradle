@@ -8,4 +8,5 @@ include 'caching'
 include 'callback'
 include 'chain'
 include 'commander'
+include 'simple-factory'
 
