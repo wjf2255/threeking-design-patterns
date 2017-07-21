@@ -9,4 +9,6 @@ include 'callback'
 include 'chain'
 include 'commander'
 include 'simple-factory'
+include 'facotry-method'
+include 'prototype'
 

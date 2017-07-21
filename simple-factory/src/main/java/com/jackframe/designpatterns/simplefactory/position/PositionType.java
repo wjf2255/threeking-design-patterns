@@ -4,6 +4,7 @@ import java.util.Hashtable;
 import java.util.Map;
 
 /**
+ * 职位类型
  * Created by jack on 09/06/2017.
  */
 public enum PositionType {

@@ -1,5 +1,8 @@
 package com.jackframe.java_design_patterns;
 
+/**
+ * 国家工厂
+ */
 public interface KingdomFactory {
 	
 	Kingdom createKindom();
