@@ -5,7 +5,7 @@ import com.jackframe.prototype.wei.WeiBarracks;
 import com.jackframe.prototype.wu.WuBarracks;
 
 /**
- * 
+ *
  * Created by jack on 21/07/2017.
  */
 public class App {

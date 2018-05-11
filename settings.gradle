@@ -11,4 +11,7 @@ include 'commander'
 include 'simple-factory'
 include 'facotry-method'
 include 'prototype'
+include 'decorator'
+include 'facade'
+include 'flyweight'
 

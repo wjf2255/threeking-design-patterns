@@ -16,6 +16,7 @@ public class ShuBarracks implements Barracks {
     public Cavalry draftCavalry() {
         try {
             return cavalry.clone();
+
         } catch (CloneNotSupportedException e) {
             return null;
         }

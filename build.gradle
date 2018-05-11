@@ -1,3 +1,6 @@
+group 'com.jackfram'
+version '1.0-SNAPSHOT'
+
 project.description = '''
     利用JAVA实现常见的设计模式
 '''
