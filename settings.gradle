@@ -14,4 +14,5 @@ include 'prototype'
 include 'decorator'
 include 'facade'
 include 'flyweight'
+include 'proxy'
 
